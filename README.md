@@ -17,7 +17,7 @@ A simple extended helper for quilljs to convert your textarea into text editor.
 </textarea>
 ```
 
-## Initialize
+## Initialize using selector
 
 ```html
 <!-- Initialize Quilljs editor -->
