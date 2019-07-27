@@ -22,13 +22,6 @@ function quilljs_textarea(elem = null, options = null) {
     }
     if(!options) {
         var default_options = {
-        modules: { toolbar: [
-            ['bold', 'italic', 'underline'],        // toggled buttons
-            [{ 'list': 'ordered'}, { 'list': 'bullet' }],
-            [{ 'header': [1, 2, 3, 4, 5, 6, false] }],
-            [{ 'color': [] }, { 'background': [] }],          // dropdown with defaults from theme
-            [{ 'align': [] }],
-        ]}, 
         theme: 'snow',
         placeholder: placeholder,
         };
