@@ -1,5 +1,5 @@
 # quilljs-textarea
-A simple extended helper for quilljs to convert your textarea into text editor.
+A simple extended helper for quilljs to transform textarea into text editor.
 
 ## Features
 - Initialize quilljs on multiple elements
