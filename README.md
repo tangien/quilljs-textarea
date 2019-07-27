@@ -1,7 +1,7 @@
 # quilljs-textarea
 A simple extended helper for quilljs to convert your textarea into text editor.
 
-''' html
+```html
 <!-- Include Quill stylesheet -->
 <link href="https://cdn.quilljs.com/1.0.0/quill.snow.css" rel="stylesheet">
 
@@ -42,4 +42,4 @@ A simple extended helper for quilljs to convert your textarea into text editor.
     });
 })();
 </script>
-'''
+```
