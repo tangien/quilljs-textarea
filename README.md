@@ -1,23 +1,26 @@
 # quilljs-textarea
 A simple extended helper for quilljs to convert your textarea into text editor.
 
-## Quickstart
+## Features
+- Initialize quilljs on multiple elements
+- Works on both textarea and divs
+- Auto-initialize quilljs using **data-quilljs** selector
+
+
+
+
+## Autoinitialize quilljs using data selector
 
 ```html
-<!-- Include Quill stylesheet -->
-<link href="https://cdn.quilljs.com/1.0.0/quill.snow.css" rel="stylesheet">
-
-<h3>Textarea initialised using selector</h3>
-<!-- Create the editor textarea -->
-<textarea class="quilljs-textarea" placeholder="Please enter text">
+<textarea data-quilljs placeholder="Please enter text">
     <p>Hello World!</p>
 </textarea>
+```
 
-<!-- Include the Quill library -->
-<script src="https://cdn.quilljs.com/1.0.0/quill.js"></script>
-<script src="../quill-textarea.js"></script>
+## Initialize
 
-<!-- Initialize Quill editor -->
+```html
+<!-- Initialize Quilljs editor -->
 <script>
 (function() {
     quilljs_textarea('.quilljs-textarea', {
@@ -32,14 +35,4 @@ A simple extended helper for quilljs to convert your textarea into text editor.
     });
 })();
 </script>
-```
-
-## Autoinitialize quilljs using data selector
-
-```html
-<textarea data-quilljs placeholder="Please enter text">
-    <p>Hello World!</p>
-</textarea>
-
-
 ```
