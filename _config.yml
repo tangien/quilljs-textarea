@@ -1,4 +1,4 @@
 theme: jekyll-theme-slate
-title: [The title of your site]
-description: [A short description of your site's purpose]
-show_downloads: ["true"]
+title: "Quilljs Textarea"
+description: "Transform textarea into quilljs text editor"
+show_downloads: "true"
